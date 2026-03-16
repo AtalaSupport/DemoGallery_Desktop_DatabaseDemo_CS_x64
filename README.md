@@ -24,8 +24,9 @@ We recommend the following to ensure you clone with the required submodule
 
 Example: git for windows
 ```bash
-git clone https://github.com/AtalaSupport/DemoGallery_DatabaseDemo_CS_x64.git DatabaseDemo
+git clone https://github.com/AtalaSupport/DemoGallery_DatabaseDemo_CS_x64.git DatabaseDemo --recursive
 cd DatabaseDemo
 git submodule init
+git submodule update
 git pull
 ```
